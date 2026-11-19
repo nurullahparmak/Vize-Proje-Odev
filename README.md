@@ -1,1 +1,1 @@
-# Vize-Proje-dev
+# Vize-Proje-Ödev
