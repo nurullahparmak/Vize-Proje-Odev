@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="tr" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TOSFED İstanbul Park hakkında bilgilendirme sayfası">
+  <title>TOSFED İstanbul Park</title>
+
+  <!-- önce bootstrap sonra kendi css'im -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="ust">
+
+  <header>
+    <!-- album şablonundaki açılır kısım -->
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-7 mb-3">
+            <h4 class="text-danger">Neden bu kadar özel?</h4>
+            <p class="text-secondary">
+              Hermann Tilke yükseklik farklarını düzleştirmek yerine pistin karakteri yaptı.
+              Cadde pistlerinin aksine hem pilotu hem aracı sonuna kadar zorlayan gerçek bir yarış pisti.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h4>Bağlantılar</h4>
+            <ul class="list-unstyled">
+              <li><a class="text-white" href="https://x.com/F1" target="_blank">F1 X hesabı</a></li>
+              <li><a class="text-white" href="#pist">Pist</a></li>
+              <li><a class="text-white" href="#tarih">Tarihçe</a></li>
+              <li><a class="text-white" href="#anlasma">Yeni anlaşma</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#ust"><img src="images/f1-logo.png" alt="F1 logosu" height="22" class="me-2"> TOSFED İstanbul Park</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section class="hero text-center text-white py-5">
+      <div class="container py-4">
+        <h1 class="display-4 fw-bold">TOSFED İstanbul Park</h1>
+        <p class="lead hero-yazi mx-auto">
+          Doğal iniş çıkışları, saat yönünün tersine akışı ve 8. virajıyla
+          takvimdeki en özel pistlerden biri.
+        </p>
+        <a href="#pist" class="btn btn-danger btn-lg">Pisti keşfet</a>
+        <button type="button" class="btn btn-outline-light btn-lg ms-2" data-bs-toggle="modal" data-bs-target="#turModal">Benim turum</button>
+      </div>
+    </section>
+
+    <!-- pist kartları -->
+    <section class="py-5 bg-body-tertiary" id="pist">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="alt-baslik text-danger">HERMANN TILKE</p>
+          <h2>Pistin karakteri</h2>
+          <p class="text-secondary">İstanbul Park'ı bu kadar zorlu yapan üç nokta.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="images/viraj8.jpg" class="card-img-top kart-resim" alt="8. viraj">
+              <div class="card-body">
+                <h3 class="h5 card-title text-danger">Diabolica: 8. Viraj</h3>
+                <p class="card-text text-secondary">
+                  Dört apeksli, uzun ve çok hızlı bir viraj. Pilotlar yaklaşık 6-7 saniye boyunca
+                  5G civarında yüke maruz kalıyor. Sağ ön lastik ve boyun kasları en çok burada yoruluyor.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="images/viraj1.jpg" class="card-img-top kart-resim" alt="1. viraj">
+              <div class="card-body">
+                <h3 class="h5 card-title text-danger">1. Viraj: Kör iniş</h3>
+                <p class="card-text text-secondary">
+                  Start düzlüğünden sonra pilotlar tepeyi aşıp çıkışı göremeden yüksek hızla aşağı dalıyor.
+                  Bathurst'teki Mount Panorama'yı andıran bu bölüm start anında temasların en çok yaşandığı yer.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="images/arkaduzluk.jpg" class="card-img-top kart-resim" alt="arka düzlük">
+              <div class="card-body">
+                <h3 class="h5 card-title text-danger">11. Viraj ve arka düzlük</h3>
+                <p class="card-text text-secondary">
+                  10. virajdan sonra araçlar hızlanıyor, 11. viraj ise tepe yukarı körlemesine tam gazla
+                  dönülüyor. Ardından gelen uzun düzlükte DRS ile 12. viraj şikanına sert frenle girilirken
+                  pistin en iyi geçiş hamleleri yapılıyor.
+                </p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- tarihçe kartları -->
+    <section class="py-5" id="tarih">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="alt-baslik text-danger">UNUTULMAZ ANLAR</p>
+          <h2>Pistte yazılan hikayeler</h2>
+          <p class="text-secondary">Pilotlar ve yarışlar.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="images/massa.jpg" class="card-img-top kart-resim" alt="Felipe Massa">
+              <div class="card-body">
+                <h3 class="h5 card-title text-danger">Felipe Massa</h3>
+                <p class="card-text text-secondary">
+                  İstanbul Park denince akla gelen ilk isim. Ferrari ile 2006, 2007 ve 2008'de üst üste
+                  üç kez pole alıp yarışı kazandı. İlk F1 galibiyetini de burada aldı.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="images/hamilton.jpg" class="card-img-top kart-resim" alt="Lewis Hamilton">
+              <div class="card-body">
+                <h3 class="h5 card-title text-danger">Hamilton'ın 7. şampiyonluğu</h3>
+                <p class="card-text text-secondary">
+                  2020'de yağmurlu ve kaygan pistte 6. sıradan başlayıp yarışı kazandı. Bu galibiyetle
+                  7. dünya şampiyonluğunu İstanbul'da kutlayıp Schumacher'in rekoruna ulaştı.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="images/vettel-webber.jpg" class="card-img-top kart-resim" alt="Vettel Webber">
+              <div class="card-body">
+                <h3 class="h5 card-title text-danger">Vettel - Webber (2010)</h3>
+                <p class="card-text text-secondary">
+                  Şampiyonluk için yarışan iki Red Bull pilotu 40. turda arka düzlükte birbirine girdi.
+                  Vettel'in parmağını kafasına götürdüğü an takım içi krizlerin en ünlülerinden biri oldu.
+                </p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- anlaşma -->
+    <section class="py-5 bg-body-tertiary" id="anlasma">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <span class="badge text-bg-danger mb-2">2027-2031 anlaşması</span>
+            <h2 class="mb-3">Cadde pistlerine karşı gerçek yarış pisti</h2>
+            <p class="text-secondary">
+              Takvim Las Vegas, Suudi Arabistan gibi düz ve bariyerlerle çevrili cadde pistleriyle
+              dolu iken TOSFED İstanbul Park bambaşka bir yerde duruyor.
+            </p>
+            <p class="text-secondary">
+              2005'te yapılmasına rağmen doğal kot farkları sayesinde Spa ve Suzuka gibi klasik pistlerin
+              havasını taşıyor. 2027'den 2031'e kadar süren anlaşma hem Türkiye'nin motor sporlarındaki
+              yerini güçlendiriyor hem de bu pisti takvime geri getiriyor.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="kimlik p-4 rounded-4 text-center">
+              <h3 class="h4 mb-3">Pist bilgileri</h3>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="kutu">
+                    <small class="text-secondary">Uzunluk</small>
+                    <p class="deger mb-0">5.338 m</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="kutu">
+                    <small class="text-secondary">Viraj sayısı</small>
+                    <p class="deger mb-0">14</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="kutu">
+                    <small class="text-secondary">Yön</small>
+                    <p class="deger mb-0">Saat yönünün tersi</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="kutu">
+                    <small class="text-secondary">Yarış tur rekoru</small>
+                    <p class="deger mb-0">1:24.770 (Montoya)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark py-4">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+      <p class="mb-2 mb-sm-0 text-secondary">© 2026 TOSFED İstanbul Park</p>
+      <a href="#ust" class="text-danger">Yukarı çık ↑</a>
+    </div>
+  </footer>
+
+  <!-- video penceresi (modal) -->
+  <div class="modal fade" id="turModal" tabindex="-1" aria-labelledby="turBaslik">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="turBaslik">Benim turum: Assetto Corsa</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe id="turVideo" src="https://www.youtube.com/embed/1MvexTUHxWA?rel=0"
+              title="Assetto Corsa İstanbul Park turu" allow="autoplay; encrypted-media; picture-in-picture"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <p class="mt-3 mb-0 text-secondary">
+            Araç: Mercedes W11 · Tur süresi: <span class="text-danger fw-bold">1:30.497</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

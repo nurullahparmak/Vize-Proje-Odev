@@ -1,0 +1,78 @@
+:root {
+  --kirmizi: #e10600;
+  --koyu: #101015;
+  --kart: #18181f;
+  --kenar: #2b2b36;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 25px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--koyu);
+}
+
+.hero {
+  background: linear-gradient(180deg, #2b1114, var(--koyu));
+}
+
+.hero-yazi {
+  max-width: 650px;
+  color: #b0b0bc;
+}
+
+.alt-baslik {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.card {
+  background-color: var(--kart);
+  border: 1px solid var(--kenar);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(225, 6, 0, 0.25) !important;
+}
+
+.kart-resim {
+  height: 200px;
+  object-fit: cover;
+}
+
+.kimlik {
+  background-color: #000;
+  border: 1px solid var(--kenar);
+}
+
+.kutu {
+  border: 1px solid var(--kenar);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.deger {
+  color: var(--kirmizi);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.2rem;
+  }
+
+  .kart-resim {
+    height: 160px;
+  }
+}
